@@ -1,16 +1,18 @@
-# Albayrak Hukuk — statik kurumsal site
+# Av. Cansu Albayrak — Albayrak Hukuk
 
-İstanbul merkezli kurgusal bir avukatlık bürosu olan **Albayrak Hukuk Bürosu** için hazırlanmış, tamamen Türkçe içerikli statik site. Next.js uygulamasının tasarımı, logosu ve metinleri HTML, CSS ve JavaScript’e aktarıldı; derleme adımı yoktur.
+İstanbul’da bağımsız avukatlık yapan **Av. Cansu Albayrak** için hazırlanmış, tamamen Türkçe içerikli statik site. Okan Üniversitesi Hukuk Fakültesi mezunu; Piri Reis Üniversitesi’nde Deniz Hukuku yüksek lisansı. 2021’den bu yana ticaret, deniz ticareti, iş, gayrimenkul, aile, ceza, icra ve KVKK alanlarında şirketlere ve bireylere danışmanlık ile dava takibi sunar.
+
+Tasarım, ALBAYRAK logosu ve metinler HTML, CSS ve JavaScript’tedir; derleme adımı yoktur.
 
 ## Çalıştırma
 
 Depo kökünden:
 
 ```bash
-python3 -m http.server 43125
+python3 -m http.server 43127
 ```
 
-Tarayıcıda: [http://127.0.0.1:43125](http://127.0.0.1:43125)
+Tarayıcıda: [http://127.0.0.1:43127](http://127.0.0.1:43127)
 
 Dosyaları doğrudan `file://` ile açmak yerine bir HTTP sunucusu kullanın; sayfalar kök göreli yollar (`/style.css`, `/hakkimizda.html`) kullanır.
 
@@ -18,14 +20,14 @@ Dosyaları doğrudan `file://` ile açmak yerine bir HTTP sunucusu kullanın; sa
 
 | Dosya | İçerik |
 | --- | --- |
-| `index.html` | Ana sayfa: hero, büro, çalışma alanları, süreç, ekip, yorumlar, makaleler, SSS |
-| `hakkimizda.html` | Büro tarihi, değerler, kilometre taşları, çalışma yöntemi |
+| `index.html` | Ana sayfa: hero, özgeçmiş özeti, çalışma alanları, süreç, profil, yorumlar, makaleler, SSS |
+| `hakkimizda.html` | Av. Cansu Albayrak özgeçmişi, eğitim, çalışma yöntemi |
 | `calisma-alanlari.html` | Sekiz çalışma alanı |
 | `calisma-alanlari/*.html` | Alan detayları, hizmetler, süreç ve SSS |
-| `ekip.html` | Avukat kartları ve kariyer notu |
-| `ekip/*.html` | Avukat profilleri |
+| `ekip.html` | Hakkımızda sayfasına yönlendirir (eski ekip URL’si) |
+| `ekip/*.html` | Hakkımızda sayfasına yönlendirir (eski avukat profilleri) |
 | `makaleler.html` | Öne çıkan yazı, kategori filtresi ve arama |
-| `makaleler/*.html` | Tam makale metinleri |
+| `makaleler/*.html` | Tam makale metinleri (yazar: Av. Cansu Albayrak) |
 | `sss.html` | Sıkça sorulan sorular |
 | `iletisim.html` | İletişim bilgileri ve ön görüşme formu |
 | `kvkk.html` | KVKK aydınlatma metni, çerez politikası, yasal uyarı |
@@ -39,4 +41,4 @@ Paylaşılan stiller `style.css`, etkileşimler `script.js`, marka görselleri `
 
 ## İçerik notu
 
-Telefon, e-posta, adres ve baro sicili örnek bilgilerdir. Sitedeki yazılar genel bilgilendirme amaçlıdır; avukat–müvekkil ilişkisi doğurmaz. Müvekkil yorumları kurgusaldır ve baş harflerle yayımlanır.
+Telefon, e-posta, adres ve baro sicili örnek bilgilerdir ve Av. Cansu Albayrak’a aittir. Sitedeki yazılar genel bilgilendirme amaçlıdır; avukat–müvekkil ilişkisi doğurmaz. Müvekkil yorumları kurgusaldır ve baş harflerle yayımlanır.
