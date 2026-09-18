@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Cansu Albayrak Hukuk">
+  <rect width="720" height="320" fill="#0e2038"/>
+  <g fill="none" transform="translate(88 86)">
+    <circle cx="52" cy="8.5" r="5" fill="#fbf8f3"/>
+    <path d="M52 14v92" stroke="#fbf8f3" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M8 42h88" stroke="#fbf8f3" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M16 42v20M28 42v20M76 42v20M88 42v20" stroke="#fbf8f3" stroke-width="2.1" stroke-linecap="round"/>
+    <path d="M8 63h26c.4 13-5.2 22-13 22S7.6 76 8 63Z" stroke="#fbf8f3" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M70 63h26c.4 13-5.2 22-13 22S69.6 76 70 63Z" stroke="#fbf8f3" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M32 122h40" stroke="#c6a667" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M40 112h24" stroke="#fbf8f3" stroke-width="2.6" stroke-linecap="round"/>
+  </g>
+  <rect x="236" y="108" width="1" height="104" fill="#c6a667"/>
+  <text x="264" y="158" fill="#fbf8f3" font-family="Playfair Display, Times New Roman, serif" font-size="34" letter-spacing="4.4">CANSU ALBAYRAK</text>
+  <text x="264" y="188" fill="#c6a667" font-family="Inter, Helvetica, Arial, sans-serif" font-size="13" letter-spacing="4.8">HUKUK &amp; DANI^MANLIK</text>
+</svg>

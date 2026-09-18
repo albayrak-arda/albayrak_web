@@ -1,18 +1,18 @@
-# Av. Cansu Albayrak — Albayrak Hukuk
+# Cansu Albayrak Hukuk
 
-İstanbul’da bağımsız avukatlık yapan **Av. Cansu Albayrak** için hazırlanmış, tamamen Türkçe içerikli statik site. Okan Üniversitesi Hukuk Fakültesi mezunu; Piri Reis Üniversitesi’nde Deniz Hukuku yüksek lisansı. 2021’den bu yana ticaret, deniz ticareti, iş, gayrimenkul, aile, ceza, icra ve KVKK alanlarında şirketlere ve bireylere danışmanlık ile dava takibi sunar.
+**Cansu Albayrak Hukuk**, Maltepe / İstanbul’da bağımsız avukatlık yapan **Av. Cansu Albayrak** için hazırlanmış, tamamen Türkçe içerikli statik sitedir. Okan Üniversitesi Hukuk Fakültesi mezunu; Piri Reis Üniversitesi’nde Deniz Hukuku yüksek lisansı. 2021’den bu yana ticaret, deniz ticareti, iş, gayrimenkul, aile, ceza, icra ve KVKK alanlarında şirketlere ve bireylere danışmanlık ile dava takibi sunar.
 
-Tasarım, ALBAYRAK logosu ve metinler HTML, CSS ve JavaScript’tedir; derleme adımı yoktur.
+Tasarım (navy / gold), Cansu Albayrak Hukuk logosu ve metinler HTML, CSS ve JavaScript’tedir; derleme adımı yoktur.
 
 ## Çalıştırma
 
 Depo kökünden:
 
 ```bash
-python3 -m http.server 43127
+python3 -m http.server 43129
 ```
 
-Tarayıcıda: [http://127.0.0.1:43127](http://127.0.0.1:43127)
+Tarayıcıda: [http://127.0.0.1:43129](http://127.0.0.1:43129)
 
 Dosyaları doğrudan `file://` ile açmak yerine bir HTTP sunucusu kullanın; sayfalar kök göreli yollar (`/style.css`, `/hakkimizda.html`) kullanır.
 
@@ -41,4 +41,4 @@ Paylaşılan stiller `style.css`, etkileşimler `script.js`, marka görselleri `
 
 ## İçerik notu
 
-Telefon, e-posta, adres ve baro sicili örnek bilgilerdir ve Av. Cansu Albayrak’a aittir. Sitedeki yazılar genel bilgilendirme amaçlıdır; avukat–müvekkil ilişkisi doğurmaz. Müvekkil yorumları kurgusaldır ve baş harflerle yayımlanır.
+Telefon, e-posta ve baro sicili örnek bilgilerdir. Adres **Maltepe / İstanbul** olarak belirtilir; sokak / kapı no yayımlanmaz. Sitedeki yazılar genel bilgilendirme amaçlıdır; avukat–müvekkil ilişkisi doğurmaz. Müvekkil yorumları kurgusaldır ve baş harflerle yayımlanır.
